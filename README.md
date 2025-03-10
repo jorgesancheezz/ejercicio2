@@ -1,10 +1,10 @@
 # ejercicio2
-import pandas as pd
-import os
+    import pandas as pd
+    import os
 
-def analyze_demographic_data():
-    # Verificar si el archivo existe
-    file_path = "adult.data.csv"
+    def analyze_demographic_data():
+        # Verificar si el archivo existe
+        file_path = "adult.data.csv"
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"El archivo {file_path} no se encuentra en el directorio actual.")
     
