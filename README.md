@@ -73,10 +73,10 @@
     print(f"8️⃣ País con el mayor porcentaje de personas que ganan >50K: {highest_earning_country} ({highest_earning_country_percentage}%)\n")
     print(f"9️⃣ Ocupación más común en India para quienes ganan >50K: {top_IN_occupation}\n")
 
-if __name__ == "__main__":
-    try:
-        analyze_demographic_data()
-    except FileNotFoundError as e:
-        print(e)
-    except Exception as e:
-        print(f"Error inesperado: {e}")
+    if __name__ == "__main__":
+        try:
+            analyze_demographic_data()
+        except FileNotFoundError as e:
+            print(e)
+        except Exception as e:
+            print(f"Error inesperado: {e}")
